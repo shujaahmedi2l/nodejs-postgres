@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodesj-dji"
+  description: 
+  annotations:
+    github.com/project-slug: shujaahmedi2l/nodesj-dji
+    argocd/app-name: nodesj-dji
+  links:
+    - url: https://nodesj-dji.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
